@@ -121,7 +121,7 @@
    
    In our first trial with `coord_loss_w = 1` and `code_dim = 510 + 2`, the results is not so good but a bit better than the case w/o.
    
-   ![image-20200216112101393](note\011.png)
+   <img src="note\011.png" alt="sample image" style="zoom:100%;"/>
    
    **Trial 2**
    
@@ -129,9 +129,9 @@
    
    (Ckp: 150000.model)
    
-   ![image-20200218221203356](note\012.png)
+   <img src="note\012.png" alt="sample image" style="zoom:100%;"/>
 
-| ![image](note\000029.png) | ![image](note\000031.png) | ![image](note\000056.png) | ![image](note\000104.png) | ![image](note\000129.png) | ![image](note\000142.png) |
+| ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000029.png) | ![image](note\000031.png) | ![image](note\000056.png) | ![image](note\000104.png) | ![image](note\000129.png) | ![image](note\000142.png) |
 | :-----------------------: | :-----------------------: | :-----------------------: | :-----------------------: | ------------------------- | ------------------------- |
 | ![image](note\000165.png) | ![image](note\000169.png) | ![image](note\000219.png) | ![image](note\000223.png) | ![image](note\000228.png) | ![image](note\000230.png) |
 | ![image](note\000234.png) | ![image](note\000244.png) | ![image](note\000249.png) | ![image](note\000250.png) | ![image](note\000098.png) | ![image](note\000146.png) |
