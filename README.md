@@ -59,17 +59,17 @@
    >
    > 我们将整图均分为 4 个 patches，对应坐标为：
    >
-   > ```python
-   > [0][1]
-   > [2][3]
-   > '''
-   > [0] -> (-1.0,  1.0)
-   > [1] -> ( 1.0,  1.0)
-   > [2] -> (-1.0, -1.0)
-   > [3] -> ( 1.0, -1.0)
-   > '''
-   > # 我们让 noise 的 dim 为 512-2，在 510-dim 的 style vector 后面拼接上 2-dim 的坐标信息
-   > ```
+   ```python
+   [0][1]
+   [2][3]
+   '''
+   [0] -> (-1.0,  1.0)
+   [1] -> ( 1.0,  1.0)
+   [2] -> (-1.0, -1.0)
+   [3] -> ( 1.0, -1.0)
+   '''
+   # 我们让 noise 的 dim 为 512-2，在 510-dim 的 style vector 后面拼接上 2-dim 的坐标信息
+   ```
    >
    > `G` 输出 4 个 micro patches 整合成一个 macro patch 后输入给 `D` 鉴别。
 
@@ -111,7 +111,7 @@
    现在我们希望 `GAN` 可以学习到生成的 micro patches 或 macro patch 与对应的 coordinate info 是严格对应的，因此我们加入 `Spatial Consistency Loss`
 
    ```python
-# Cmd for training:
+   # Cmd for training:
    CUDA_VISIBLE_DEVICES=0 python train_coco.py --loss r1 --sched --mixing --path datasets/celeba --config=configs/CelebA_128x128_N2M2S64.yaml
    # Cmd for testing:
    CUDA_VISIBLE_DEVICES=0 python test_coco.py --config=configs/CelebA_128x128_N2M2S64.yaml
