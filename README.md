@@ -11,7 +11,7 @@
 
 其中`N4M4` 表示一个 macro patch 由 `4x4` 个 micro patches 组成；`S64` 表示一个 macro patch 的像素大小是 `64x64`；`CelebA` 表示训练数据集；`128x128` 表示整图的大小。 
 
-<img src="note\000.png" alt="image-20200202184929191" style="zoom:67%;" />
+<img src="https://github.com/NeverGiveU/CoCoGAN_pytorch_master/note/000.png" alt="image-20200202184929191" style="zoom:67%;" />
 
 # 复现
 
