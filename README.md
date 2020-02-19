@@ -102,7 +102,7 @@
    | :----------------------------------------------------------: | :----------------------------------------------------------: |
    | 目前为止可以保持 patch 之间的一致性，<br/>但是 coord 的作用还不强，<br/>大部分是上图这样无法凑成自然人脸的 |         很难才找到的一个比较自然的样本<br/>约 1/256          |
 
-   ![image-20200216111852651](E:\Projects\CoCoGAN-pytorch-master\note\010.png)
+   ![image-20200216111852651](note\010.png)
 
    Thus, the *spatial consistency loss* is necessary.
 
@@ -121,7 +121,7 @@
    
    In our first trial with `coord_loss_w = 1` and `code_dim = 510 + 2`, the results is not so good but a bit better than the case w/o.
    
-   ![image-20200216112101393](E:\Projects\CoCoGAN-pytorch-master\note\011.png)
+   ![image-20200216112101393](note\011.png)
    
    **Trial 2**
    
