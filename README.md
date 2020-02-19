@@ -20,7 +20,7 @@
 
 1. Make sure the progressive generation on a sample dataset of `CelebA`(807 faces).
 
-   ```python
+   ```sh
    ## Cmd: 
    CUDA_VISIBLE_DEVICES=0 python train.py --loss r1 --sched --mixing datasets/celeba
    ```
@@ -33,7 +33,7 @@
 
 2. Make sure the direct generation(w/o progressive) for any target size(e.g. 64×64) on the sample dataset.
 
-   ```python
+   ```sh
    ## Cmd: 
    CUDA_VISIBLE_DEVICES=0 python train_nopro.py --loss r1 --sched --mixing datasets/celeba
    ```
@@ -46,7 +46,7 @@
 
 3. Make sure learning the patch consistency is possible.
 
-   ```python
+   ```sh
    ## Cmd: 
    CUDA_VISIBLE_DEVICES=0 python train_patches_consistency.py --loss r1 --sched --mixing datasets/celeba
    ```
@@ -75,7 +75,7 @@
 
 4. Make sure learning the spatial relationship is also possible.
 
-   ```python
+   ```sh
    # Cmd for training:
    CUDA_VISIBLE_DEVICES=0 python train_spatial_relationship.py --loss r1 --sched --mixing --path datasets/celeba --config=configs/CelebA_128x128_N2M2S64.yaml
    # Cmd for testing:
@@ -110,7 +110,7 @@
 
    现在我们希望 `GAN` 可以学习到生成的 micro patches 或 macro patch 与对应的 coordinate info 是严格对应的，因此我们加入 `Spatial Consistency Loss`
 
-   ```python
+   ```sh
    # Cmd for training:
    CUDA_VISIBLE_DEVICES=0 python train_coco.py --loss r1 --sched --mixing --path datasets/celeba --config=configs/CelebA_128x128_N2M2S64.yaml
    # Cmd for testing:
