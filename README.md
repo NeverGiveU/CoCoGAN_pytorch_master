@@ -135,9 +135,8 @@
 | :-----------------------: | :-----------------------: | :-----------------------: | :-----------------------: | ------------------------- | ------------------------- |
 | <img src="note\000165.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000230.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000169.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000219.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000223.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000228.png" alt="sample image" style="zoom:100%;"/> |
 | <img src="note\000234.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000244.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000249.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000250.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000098.png" alt="sample image" style="zoom:100%;"/> | <img src="note\000146.png" alt="sample image" style="zoom:100%;"/> |
-| ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000234.png) | ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000244.png) | ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000249.png) | ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000250.png) | ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000098.png) | ![image](https://github.com/NeverGiveU/CoCoGAN_pytorch_master/master/note/000146.png) |
 
- 	For further experiments, we will follow continuously. (得去做毕设了😭)
+For further experiments, we will follow continuously. (得去做毕设了😭)
 
 # References
 
